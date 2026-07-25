@@ -2,9 +2,7 @@
 
 An interactive Excel dashboard analysing **123,849 LinkedIn job postings** across the United States (24 Mar – 19 Apr 2024), built on a **Power Pivot data model** with **DAX** measures.
 
-![Dashboard preview](images/dashboard_preview.png)
-
-> Replace the image above with a screenshot of your finished dashboard saved to `images/dashboard_preview.png`.
+![Dashboard preview](images/LinkedIn_Jobs_Dashboard.png)
 
 ## Data model
 Ten related tables joined into a star-style schema in Power Pivot:
@@ -34,7 +32,7 @@ LinkedIn-Jobs-Dashboard/
 ├── dashboard/
 │   └── LinkedIn_Jobs_Dashboard.xlsx
 ├── images/
-│   ├── dashboard_preview.png
+│   ├── LinkedIn_Jobs_Dashboard.png
 │   └── data_model.png
 ├── README.md
 └── .gitignore

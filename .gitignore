@@ -1,0 +1,22 @@
+# Files too large for GitHub (>100 MB)
+postings.csv
+data/**/*.parquet
+
+# Excel / Office temp & lock files
+~$*.xlsx
+~$*.xls
+~$*.docx
+*.tmp
+
+# Rendered/exported artifacts (keep source .xlsx, not throwaway exports)
+*.pdf
+_verify*.jpg
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor folders (only relevant if you open the folder in an IDE)
+.vscode/
+.idea/
